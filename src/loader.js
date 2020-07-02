@@ -10,7 +10,4 @@ export function loadImage(url) {
 
 export function loadLevel(name) {
     return fetch(`/levels/${name}.json`).then(r => r.json());
-    // import json from `./levels/${name}.json`
-
-    // return json;
 }
